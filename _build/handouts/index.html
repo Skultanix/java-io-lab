@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Java I/O | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">Java I/O</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">Java I/O</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#part-1-setup">Part 1: Setup</a></li>
+<li><a class="reference internal" href="#part-2-opening-a-file-in-java-and-printing-out-the-contents-to-the-console">Part 2: Opening a file in Java and printing out the contents to the console</a></li>
+<li><a class="reference internal" href="#part-3-representing-the-parsed-data-as-plain-old-java-objects">Part 3: Representing the parsed data as Plain Old Java Objects</a><ul>
+<li><a class="reference internal" href="#default-no-argument-constructor-setter-injection">Default No Argument Constructor + Setter Injection</a></li>
+<li><a class="reference internal" href="#all-argument-constructor">All Argument Constructor</a></li>
+<li><a class="reference internal" href="#custom-constructor-that-accepts-either-string-or-a-collection">Custom Constructor that accepts either String[ ] or a Collection</a></li>
+<li><a class="reference internal" href="#step-1-create-your-classes">Step 1: Create your Classes</a></li>
+<li><a class="reference internal" href="#step-2-creating-our-data-seeding-methods-with-our-newly-created-classes">Step 2: Creating our Data Seeding methods with our newly created Classes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#you-did-it">You did it!</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="java-i-o">
+<h1>Java I/O</h1>
+<section class="section" id="introduction">
+<h2>Introduction</h2>
+<p>Java uses a library called Java I/O to be able to process information from files. You can use this library to do a lot of cool things. We are going to practice here and show you a few different ways that you can use and process data from files.</p>
+</section>
+<section class="section" id="part-1-setup">
+<h2>Part 1: Setup</h2>
+<ul class="simple">
+<li><p>Download the source materials and open the project in IntelliJ. You should see a <cite>data</cite> directory in the project’s root directory that contains a folder with .csv’s called <cite>csv</cite> and a folder with .txt’s called <cite>txt</cite>. Let the Tech Lead know if you have any questions about the starting resources.</p></li>
+<li><p>Inside of the Main class’s main method, print out a simple message to the console (<cite>System.out.println()</cite> in case you forgot) to ensure that your program can run its main method. We are ready to start our project!</p></li>
+</ul>
+</section>
+<section class="section" id="part-2-opening-a-file-in-java-and-printing-out-the-contents-to-the-console">
+<h2>Part 2: Opening a file in Java and printing out the contents to the console</h2>
+<p>The first thing we need to do is create our File objects</p>
+<ul class="simple">
+<li><p>Inside the main method we will be creating a new File object for each file in the “data” directory (there should be a total of 8 files. 4 inside of the “txt” folder and 4 inside of the “csv” folder)</p></li>
+<li><p>The File object in java accepts a path as its argument in construction, and that path is relative to the project folder you are currently working in.</p></li>
+<li><p>Create a new member variable named “cases” (note that you cannot name it “case” as that is a reserved word in Java) of type “File” and set it equal to a new File(). See example below:</p></li>
+</ul>
+<img alt="_images/one.png" src="_images/one.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Replicate this for each of the files, giving the variable the same name as what the file contains</p></li>
+</ul>
+<img alt="_images/two.png" src="_images/two.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Now that we have our File objects we can create a new method underneath our main method, but still within the class called something like “openFileAndPrint” which will be a public static void method that accepts a single argument of type “File” called “file”</p></li>
+</ul>
+<img alt="_images/three.png" src="_images/three.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Within our method we need to utilize two more classes available inside of the Java I/O library called “FileReader” and “BufferedReader”</p></li>
+<li><p>FileReader accepts a File as its argument during construction and BufferedReader accepts a FileReader as its argument during construction. Create a new method variable of type “FileReader” called “fileReader” and set it equal to a new FileReader() and pass in the file from the method’s argument as a parameter.</p></li>
+</ul>
+<img alt="_images/four.png" src="_images/four.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Create a new method variable of type “BufferedReader” called “bufferedReader” and set it equal to a new BufferedReader() and pass in the “fileReader” variable we just created.</p></li>
+</ul>
+<img alt="_images/five.png" src="_images/five.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>The bufferedReader works by reading one line at a time from the file as a String, we need a method variable to store the line as a String, lets initialize a method variable called “line” of type “String”</p></li>
+</ul>
+<img alt="_images/six.png" src="_images/six.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>Our boilerplate code is now complete for our method! We can loop through each line of the file easily with a “while” loop. While loops, as you may remember, will continue to run until their condition returns false. So we can utilize our “line” variable and set it equal to “bufferedReader.readLine()” inside of our while loop’s condition and check to make sure that line does not equal null.</p></li>
+</ul>
+<img alt="_images/seven.png" src="_images/seven.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Like we said earlier, “line” will just be a string. Inside of the while loop, print out “line” to the console, then inside the main method invoke “openFileAndPrint()” and pass it one of your files</p></li>
+</ul>
+<img alt="_images/eight.png" src="_images/eight.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>Depending on what file you chose, you should see the data from your file printed to the console with either the “|” character separating fields or “,” separating fields. Here is a snippet from the “cases” file below</p></li>
+</ul>
+<img alt="_images/nine.png" src="_images/nine.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>We can utilize the split method available in Java to split this String if we wanted on a specific character. Let’s split this “line” string into parts. Please note that the character will be different from either csv or txt.</p></li>
+<li><p>Inside the while loop of the “openFileAndPrint” method create a new method variable of type String[ ] and name it “values”. Set “values” equal to “line.split()” and this is where it can me different, you either need to pass in a string containing a comma ( “,” ) or a string containing the vertical bar ( “\|“ Typically this key is the one directly above the “enter” key on your keyboard, also note that when using this character in particular you need to add the regex escape character “\”).  And print out the values to the console</p></li>
+</ul>
+<img alt="_images/ten.png" src="_images/ten.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Now you should see an array representing each line of the file, with the data fields occupying a single index in the array</p></li>
+</ul>
+<img alt="_images/eleven.png" src="_images/eleven.png" style="width: 600px;" />
+<p>Congratulations! You have successfully opened and parsed a file! Feel free to pass in the other files you have created in the main method and try them out. You may have to change your regex split character depending on file type</p>
+</section>
+<section class="section" id="part-3-representing-the-parsed-data-as-plain-old-java-objects">
+<h2>Part 3: Representing the parsed data as Plain Old Java Objects</h2>
+<p>Now that you have successfully opened and parsed data with Java, let’s do something more with it! Rather than having an array of Strings as the output, let’s see if we can create objects to represent what each PC component is based on the data from the files!</p>
+<p>In this section you will be creating classes that will act as the blueprint for the objects representing a single line within our data file. Keep in mind that this object is representing a real life “thing” that could sit on your desk. Just like there are many different PC cases, cpus, gpus etc. in real life, we will have many different objects representing them in our program. Each object of the specific types we will create will have the same blueprint however, aka the Class we create for our program.</p>
+<p>We are also going to be creating and populating the fields on the objects in 3 different ways</p>
+<section class="section" id="default-no-argument-constructor-setter-injection">
+<h3>Default No Argument Constructor + Setter Injection</h3>
+<ul class="simple">
+<li><p>Gpu</p></li>
+<li><p>Motherboard</p></li>
+<li><p>Psu</p></li>
+</ul>
+</section>
+<section class="section" id="all-argument-constructor">
+<h3>All Argument Constructor</h3>
+<ul class="simple">
+<li><p>Case</p></li>
+<li><p>Cpu</p></li>
+<li><p>CpuCooler</p></li>
+</ul>
+</section>
+<section class="section" id="custom-constructor-that-accepts-either-string-or-a-collection">
+<h3>Custom Constructor that accepts either String[ ] or a Collection</h3>
+<ul class="simple">
+<li><p>Ram</p></li>
+<li><p>Storage</p></li>
+</ul>
+</section>
+<section class="section" id="step-1-create-your-classes">
+<h3>Step 1: Create your Classes</h3>
+<ul class="simple">
+<li><p>In the “objects” package within “com.devmountain” create a new Java Class and call it “Case”</p></li>
+<li><p>Looking at the “Case.txt” file located within the “data/txt” folder you will see that there are fields across the top representing the names of the different fields within each line of data.</p></li>
+<li><p>Create new private member variables for each of the field names from the “txt” file (Note that the price field will likely be easiest to leave as a String rather than try and migrate it to a Float or a Double).</p></li>
+</ul>
+<img alt="_images/twelve.png" src="_images/twelve.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>We made them private to be able to protect the state of the objects created from this class. However, since they are private we will have to generate some getters and setters for all of these fields. Thankfully, IntelliJ is smart enough to help us out here. On you keyboard press “Alt+Insert” and select “Getter and Setter”</p></li>
+</ul>
+<img alt="_images/thirteen.png" src="_images/thirteen.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>Select every member variable from the next pop-up and click ok</p></li>
+</ul>
+<img alt="_images/fourteen.png" src="_images/fourteen.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>Since we will be doing All Argument Construction for this specific class to demonstrate how this could be performed we need to create the All Arguments Constructor, Luckily IntelliJ is smart enough to help us here as well. On your keyboard, press “Alt+Insert” again and select “Constructor”. In the next window, select all the fields similar to the way we generated “Getter and Setter” and click OK. Here is what should have been generated</p></li>
+</ul>
+<img alt="_images/fifteen.png" src="_images/fifteen.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>The last thing we need is to Override the toString() method, so that we have a way to print these objects as a String in the console. Again, IntelliJ is smart enough to help us here as well. Press “Alt+Insert” and choose the toString() option</p></li>
+</ul>
+<img alt="_images/sixteen.png" src="_images/sixteen.png" style="width: 300px;" />
+<ul class="simple">
+<li><p>Choose all the members again similar to “Getter and Setter” as well as “Constructor” and click OK. Look at the method that is generated and make sure that it makes sense.</p></li>
+</ul>
+<img alt="_images/seventeen.png" src="_images/seventeen.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Replicate this process and create a Class to represent the data from each file. Keep in mind that for the Classes that will be a part of the No Argument Constructor group will not need a Constructor to be generated but will need the toString() override</p></li>
+<li><p>The two Classes that will be part of the custom Constructor group will need a custom constructor to be created as well as the toString() override</p></li>
+</ul>
+<img alt="_images/eighteen.png" src="_images/eighteen.png" style="width: 600px;" />
+<img alt="_images/nineteen.png" src="_images/nineteen.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Note that we created speed and modules on the Ram class as Integers rather than Strings, If you do not want to do this you can leave them as a String and not have to parseInt()</p></li>
+<li><p>Now that we have our objects, let’s head back over to our Main class and create some additional methods to help us use this data.</p></li>
+</ul>
+<p>We will model an example of both the All Arguments Construction method, the Default or No Argument constructor with Setter Injection, and the Custom Constructor.</p>
+</section>
+<section class="section" id="step-2-creating-our-data-seeding-methods-with-our-newly-created-classes">
+<h3>Step 2: Creating our Data Seeding methods with our newly created Classes</h3>
+<p><strong>All Arguments Construction Example:</strong></p>
+<ul class="simple">
+<li><p>First let’s start by creating a new public static method called seedCases that accepts a File as an argument. It will return a List&lt;Case&gt; as well as throw an IOException.</p></li>
+</ul>
+<img alt="_images/twenty.png" src="_images/twenty.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Next let’s initialize the method variable that will be where we store all of our objects that we will create from the seed file. Create a new variable of type “List&lt;Case&gt;” called “caseList” and set it equal to a new ArrayList</p></li>
+</ul>
+<img alt="_images/twentyone.png" src="_images/twentyone.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Similar to the “openFileAndPrint” method we need our FileReader, BufferedReader, and String line; Go ahead and copy those 3 lines from openFileAndPrint into this new method</p></li>
+</ul>
+<img alt="_images/twentytwo.png" src="_images/twentytwo.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Create your while loop and give it the same condition we gave it in the “openFileAndPrint” method.</p></li>
+<li><p>Inside your while loop create as many method variables of type “String” as you need for the specific class you are working with, for example the “Case” class has 5 member variables in it, so I need to initialize 5 method variables that are Strings that I can pass to the Case All Arguments Constructor. After creating the new Case object you can add that object to our “caseList” variable to be stored in memory. Real life applications include persisting this object to a database or writing this object to a new file, log, or a disk somewhere to be stored.</p></li>
+<li><p>Finally, outside the while loop return “caseList”</p></li>
+</ul>
+<img alt="_images/twentythree.png" src="_images/twentythree.png" style="width: 600px;" />
+<p>Replicate this method for the other two classes demonstrating the All Arguments Construction pattern (Cpu, and CpuCooler)</p>
+<p><strong>Default Constructor + Setter Injection Example:</strong></p>
+<ul class="simple">
+<li><p>This method will be extremely similar to the previous pattern, the only difference is in the while loop. Rather than generating 5 String variables, we create the Object from the class in question and then use the setter methods available in that class to set the fields based on the “String[ ] values”. Other than that, all the boilerplate code is the same as the previous example.</p></li>
+</ul>
+<img alt="_images/twentyfour.png" src="_images/twentyfour.png" style="width: 600px;" />
+<p>Replicate this method for the other 2 classes that demonstrate the Default Constructor + Setter Injection pattern (Motherboard, Psu)</p>
+<p><strong>Custom Constructor Example:</strong></p>
+<ul class="simple">
+<li><p>This method will also share the same boilerplate code with its main difference being in the while loop as well. Because we created the custom constructor we can simply pass the new Object we create either the “String[ ] values” array or the values array as a List&lt;String&gt;.</p></li>
+</ul>
+<img alt="_images/twentyfive.png" src="_images/twentyfive.png" style="width: 600px;" />
+<img alt="_images/twentysix.png" src="_images/twentysix.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>You can now invoke these methods within your main method and pass them their corresponding file. Note that since the method returns the List&lt;YOUR_OBJECTS_HERE&gt; we will need to wrap the method call with <cite>System.out.println()</cite> like so:</p></li>
+</ul>
+<img alt="_images/twentyseven.png" src="_images/twentyseven.png" style="width: 600px;" />
+<ul class="simple">
+<li><p>Notice how the output is an Array full of a bunch of objects? That is what is being returned from this method. Real Life applications of this could be delivering this data through a RESTful API endpoint as JSON, persistence in a database, etc.</p></li>
+<li><p>If you would like to make the output cleaner, then unwrap the method from the System.out.println() and add a print statement to your while loop to print out the object as shown below</p></li>
+</ul>
+<img alt="_images/twentyeight.png" src="_images/twentyeight.png" style="width: 300px;" />
+<img alt="_images/twentynine.png" src="_images/twentynine.png" style="width: 600px;" />
+<img alt="_images/thirty.png" src="_images/thirty.png" style="width: 800px;" />
+</section>
+</section>
+<section class="section" id="you-did-it">
+<h2>You did it!</h2>
+<p>Congratulations! You have successfully completed the exercise! Feel free to keep playing around with the program and see what else you can do. Think of other use cases where being able to process a file might be useful. As always, reach out to the Tech Lead with any questions you may have!</p>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2022 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>

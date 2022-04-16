@@ -1,0 +1,63 @@
+Brand|Level|Name|Cores|Threads|CoreClock|BoostClock|TDP|IntergratedGrapgics|Chipset|Price|AmazonLink
+AMD|Ryzen 5|5600X|6|12|3.7GHz|4.6GHz|65W|None|AM4|$259.99|null
+AMD|Ryzen 7|5800X|8|16|3.8GHz|4.7GHz|105W|None|AM4|$348.99|null
+Intel|Core i5|12600K|10|16|3.7GHz|4.9Ghz|125W|Intel UHD Graphics 770|LGA1700|$294.99|null
+AMD|Ryzen 5|5600G|6|12|3.9Ghz|4.7GHz|65W|Radeon Vega 7|AM4|$265.99|null
+Intel|Core i7|12700K|12|20|3.6GHz|5GHz|125W|Intel UHD Graphics 770|LGA1700|$374.99|null
+AMD|Ryzen 5|3600|6|12|3.6GHz|4.2GHz|65W|None|AM4|$285.99|null
+Intel|Core i9|12900K|16|24|3.2GHz|5.2GHz|125W|Intel UHD Graphics 770|LGA1700|$617.00|null
+AMD|Ryzen 9|5900X|12|24|3.7GHz|4.8GHz|105W|None|AM4|$579.99|null
+Intel|Core i5|10400F|6|12|2.9GHz|4.3GHz|65W|None|LGA1200|$149.99|null
+AMD|Ryzen 7|3700X|8|16|3.6GHz|4.4GHz|65W|None|AM4|$348.95|null
+AMD|Ryzen 9|5950X|16|32|3.4GHz|4.9GHz|105W|None|AM4|$679.99|null
+Intel|Core i3|10100F|4|8|3.6GHz|4.3GHz|65W|None|LGA1200|$84.98|null
+AMD|Ryzen 7|5700G|8|16|3.8GHz|4.6GHz|65W|Radeon Vega 8|AM4|$318.98|null
+Intel|Core i7|10700K|8|16|3.8GHz|5.1GHz|125W|Intel UHD Graphics 630|LGA1200|$339.99|null
+Intel|Core i7|11700K|8|16|3.6GHz|5GHz|125W|Intel UHD Graphics 750|LGA1200|$349.86|null
+Intel|Core i5|10400|6|12|2.9GHz|4.3GHz|65W|Intel UHD Graphics 630|LGA1200|$149.99|null
+AMD|Ryzen 3|3100|4|8|3.6GHz|3.9GHz|65W|None|AM4|$174.95|null
+Intel|Core i5|11600K|6|12|3.9GHz|4.9GHz|125W|Intel UHD Graphics 750|LGA1200|$244.99|null
+Intel|Core i5|12400F|6|12|2.5GHz|4.4GHz|65W|None|LGA1700|$179.99|null
+Intel|Core i5|11400|6|12|2.6GHz|4.4GHz|65W|Intel UHD Graphics 730|LGA1200|$182.22|null
+Intel|Core i5|11400F|6|12|2.6GHz|4.4GHz|65W|None|LGA1200|$172.43|null
+AMD|Ryzen 7|3800X|8|16|3.9GHz|4.5GHz|105W|None|AM4|$339.95|null
+Intel|Core i9|11900K|8|16|3.5GHz|5.3GHz|125W|Intel UHD Graphics 750|LGA1200|$515.88|null
+Intel|Core i9|10900K|10|20|3.7GHz|5.3GHz|125W|Intel UHD Graphics 630|LGA1200|$443.89|null
+Intel|Core i7|12700KF|12|20|3.6GHz|5GHz|125W|None|LGA1700|$368.77|null
+Intel|Core i3|10100|4|8|3.6GHz|4.3GHz|65W|Intel UHD Graphics 630|LGA1200|$114.93|null
+AMD|Ryzen 5|2600|6|12|3.4GHz|3.9GHz|65W|None|AM4|$329.00|null
+AMD|Ryzen 9|3900X|12|24|3.8GHz|4.6GHz|105W|None|AM4|$543.19|null
+Intel|Core i9|12900KF|16|24|3.2GHz|5.2GHz|125W|None|LGA1700|$579.50|null
+Intel|Core i5|12600KF|10|16|3.7GHz|4.9GHz|125W|None|LGA1700|$286.07|null
+AMD|Ryzen 5|3600X|6|12|3.8GHz|4.4GHz|95W|None|AM4|$462.00|null
+Intal|Core i5|12400|6|12|2.5GHz|4.4GHz|65W|Intel UHD Graphics 730|LGA1200|$208.98|null
+Intel|Core i7|10700F|8|16|2.9GHz|4.8GHz|65W|None|LGA1200|$267.98|null
+AMD|Ryzen 3|3200G|4|8|3.6GHz|4GHz|65W|Radeon Vega 8|AM4|$290.49|null
+AMD|Ryzen 7|2700X|8|16|3.7GHz|4.3GHz|105W|None|AM4|$414.99|null
+Intel|Core i3|10105F|4|8|3.7GHz|4.4GHz|65W|None|LGA1200|$88.95|null
+AMD|Athlon|3000G|2|4|3.5GHz|3.5GHz|35W|Radeon Vega 3|AM4|$99.99|null
+Intel|Core i5|10600KF|6|12|4.1GHz|4.8GHz|125W|None|LGA1200|$200.97|null
+Intel|Core i5|10600K|6|12|4.1GHz|4.8GHz|125W|Intel UHD Graphics 630|LGA1200|$339.17|null
+AMD|Ryzen 5|1600|6|12|3.2GHz|3.6GHz|65W|None|AM4|$178.10|null
+Intel|Core i3|12100F|4|8|3.3GHz|4.3GHz|58W|None|LGA1700|$117.50|null
+AMD|Ryzen 5|2600X|6|12|3.6GHz|4.2GHz|95W|None|AM4|#336.49|null
+Intel|Core i7|11700F|8|16|2.5GHz|4.9GHz|65W|None|LGA1200|$299.99|null
+AMD|Ryzen 5|3400G|4|8|3.7GHz|4.2GHz|65W|Radeon Vega 11|AM4|$374.49|null
+Intel|Core i3|10105|4|8|3.7GHz|4.4GHz|65W|Intel UHD Graphics 630|LGA1200|$104.99|null
+Intel|Core i7|11700KF|8|16|3.6GHz|5GHz|125W|None|LGA1200|$312.99|null
+AMD|Ryzen 9|3950X|16|32|3.5GHz|4.7GHz|105W|None|AM4|$893.06|null
+Intel|Core i9|10850K|10|20|3.6GHz|5.2GHz|125W|Intel UHD Graphics 630|LGA1200|$579.00|null
+Intel|Core i5|11600K|6|12|3.9GHz|4.9GHz|125W|None|LGA1200|$248.97|null
+Intel|Core i7|10700KF|8|16|3.8GHz|5.1GHz|125W|None|LGA1200|$339.99|null
+AMD|Ryzen 3|3300X|4|8|3.8GHz|4.3GHz|65W|None|AM4|$309.00|null
+AMD|Ryzen 5|1600|6|12|3.2GHz|3.6GHz|65W|None|AM4|$279.00|null
+AMD|Athlon|200GE|2|4|3.2GHz|3.2GHz|35W|Radeon Vega 3|AM4|$89.99|null
+AMD|Ryzen 7|3800XT|8|16|3.9GHz|4.7GHz|105W|None|AM4|$382.50|null
+Intel|Core i9|10900KF|10|20|3.7GHz|5.3GHz|125W|None|LGA1200|$434.38|null
+Intel|Core i7|11700|8|16|2.5GHz|4.9GHz|65W|Intel UHD Graphics 750|$329.97|null
+Intel|Core i7|12700F|12|20|2.1GHz|4.9GHz|65W|None|LGA1700|$329.79|null
+AMD|Ryzen 3|2200G|4|8|3.5GHz|3.7GHz|65W|Radeon Vega 8|AM4|$304.49|null
+AMD|Ryzen 5|3600|6|12|3.6GHz|4.2GHz|65W|None|AM4|$289.99|null
+AMD|Ryzen 5|1600X|6|12|3.6GHz|4GHz|95W|None|AM4|$258.99|null
+AMD|Ryzen 3|1200|4|8|3.1GHz|3.4GHz|65W|None|AM4|$366.50|null
+AMD|Ryzen 9|3900XT|12|24|3.8GHz|4.7GHz|105W|None|AM4|$899.00|null

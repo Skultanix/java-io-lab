@@ -1,0 +1,93 @@
+Brand|Name|Type|Color|Price|AmazonLink
+Corsair|4000D Airflow|ATX Mid Tower|Black|$97.49|null
+NZXT|H510|ATX Mid Tower|White|$86.98|null
+Corsair|iCUE 4000X RGB|ATX Mid Tower|Black|$144.99|null
+NZXT|H510|ATX Mid Tower|Black|$89.99|null
+Corsair|4000D Airflow|ATX Mid Tower|White|$94.99|null
+Lian Li|PC-O11 Dynamic|ATX Full Tower|Black|$188.00|null
+Phanteks|Eclipse P300A Mesh|ATX Mid Tower|Black|$64.98|null
+Lian Li|PC-O11 Dynamic|ATX Full Tower|White|$169.99|null
+Corsair|iCUE 4000X RGB|ATX Mid Tower|White|$138.49|null
+Lian Li|O11 Dynamic Mini Snow Edition|ATX Mid Tower|White|$299.99|null
+Fractal Design|Meshify C|ATX Mid Tower|Black|$111.98|null
+Corsair|SPEC-DELTA RGB|ATX Mid Tower|Black|$64.99|null
+Cooler Master|MasterBox Q300L|MicroATX Mini Tower|Black|$49.99|null
+Corsair|5000D AIRFLOW|ATX Mid Tower|Black|$159.99|null
+Corsair|4000D|ATX Mid Tower|White|$94.99|null
+Lian Li|O11 Dynamic Mini|ATX Mid Tower|Black|$109.99|null
+Lian Li|Lancool II Mesh|ATX Mid Tower|Black|$259.95|null
+NZXT H510 Flow|ATX Mid Tower|Black|$98.98|null
+NZXT|H510 Elite|ATX Mid Tower|White/Black|$174.99|null
+Lian Li|LANCOOL 215|ATX Mid Tower|Black|$98.60|null
+Cooler Master|MasterBox TD500 Mesh White w/Controller|ATX Mid Tower|White|$119.99|null
+NZXT|H510 Flow|ATX Mid Tower|White|$99.98|null
+Corsair|iCUE 5000X RGB|ATX Mid Tower|Black|$204.99|null
+Lian Li|O11D XL-W|ATX Full Tower|White/Black|$469.49|null
+Fractal Design|Focus G|ATX Mid Tower|White|$66.98|null
+Cooler Master|MasterBox NR200|Mini ITX Desktop|Black|$98.99|null
+Thermaltake|Level 20|ATX Full Tower|Black/Silver|$999.99|null
+Corsair|iCUE 220T RGB Airflow|ATX Mid Tower|Black|$104.55|null
+Cooler Master|MasterBox NR200P|Mini ITX Desktop|Black|$103.00|null
+Lian Li|O11 Air Mini|ATX Mid Tower|Black|$124.99|null
+NZXT H510 Elite|ATX Mid Tower|Black|$169.99|null
+Corsair|7000D AIRFLOW|ATX Full Tower|Black|$269.99|null
+Corsair|275R Airflow|ATX Mid Tower|Black|$79.99|null
+MSI|MAG FORGE 100R|ATX Mid Tower|Black|$89.98|null
+HEC|HX320|ATX Mid Tower|Black|$45.98|null
+Lian Li|O11 Dynamic Mini|ATX Mid Tower|White/Black|$109.99|null
+Cooler Master|MasterBox MB311L ARGB|MicroATX Mid Tower|Black|$74.98|null
+Cooler Master|masterBox Lite 3.1|MicroATX Mid Tower|Black/Red|$64.98|null
+Corsair|iCUE 220T RGB Airflow|ATX Mid Tower|White|$114.99|null
+Phanteks|Eclipse P400A|ATX Mid Tower|Black|$103.97|null
+Deepcool|MATREXX 50 ADD-RGB 4F|ATX Mid Tower|Black|$85.98|null
+Thermaltake|Versa H18|MicroATX MIni Tower|Black|$60.98|null
+Phanteks|Eclipse P400|ATX Mid Tower|Black|$59.99|null
+Corsair|5000D AIRFLOW|ATX Mid Tower|White/Grey|$158.88|null
+Phanteks|Eclipse P500A D-RGB|ATX Mid Tower|Black|$139.99|null
+Cougar|MX330|ATX Mid Tower|Black|$59.99|null
+Lian Li|Lancool II Mesh|ATX Mid Tower|White|$245.00|null
+Cooler Master|MasterBox TD500 Mesh w/Controller|ATX Mid Tower|Black|$123.99|null
+NZXT H510i|ATX Mid Tower|White|$119.99|null
+Fractal Design|Meshify C|ATX Mid Tower|White/Black|$111.98|null
+Lian Li|O11D XL-X|ATX Full Tower|Black|$295.62|null
+Phanteks|Enthoo Pro|ATX Full Tower|Black|$129.99|null
+RAIJINTEK|Silenos Pro|ATX Mid Tower|Black|$79.99|null
+Cooler Master|MasterBox NR200P|Mini ITX Desktop|White/Black|$96.50|null
+Lian Li|PC-O11 Dynamic Razer|ATX Full Tower|Black|$211.99|null
+Cooler Master|MasterBox NR600 (w/o ODD)|ATX Mid Tower|Black|$81.99|null
+Fractal Design|Meshify 2|ATX Mid Tower|Black|$174.00|null
+MSI|MPG GUNGNIR 110R|ATX Mid Tower|Black|$109.99|null
+Corsair|iCUE 5000X RGB|ATX Mid Tower|White/Grey|$202.34|null
+be quiet!|Pure Base 500DX|ATX Mid Tower|Black|$118.21|null
+NZXT|H710i|ATX Mid Tower|$219.99|null
+Corsair|1000D|ATX Full Tower|Black|$514.99|null
+Fractal Design|Focus G Mini|MicroATX Mini Tower|Black|$63.98|null
+Deepcool|MACUBE 110|MicroATX Mini Tower|White|$70.98|null
+Corsair|4000D|ATX Mid Tower|Black|$74.98|null
+Phanteks|Eclipse P400A Digital|ATX Mid Tower|White|$85.98|null
+Aerocool|Cylon|ATX Mid Tower|Black|$53.99|null
+Cougar|MX330-G|ATX Mid Tower|Black|$54.99|null
+Cooler Master|MasterBox MB320L ARGB|MICROATX Mini Tower|Black|$74.98|null
+Deepcool|MATREXX 40|MicroATX Mid Tower|Black|$74.81|null
+Cooler Master|MasterBox Q500L|ATX Mid Tower|Black|$73.98|null
+Corsair|iCUE 7000X RGB|ATX Full Tower|Black|$339.99|null
+Lian Li|O11 Air Mini|ATX Mid Tower|White|$130.99|null
+Phanteks|Eclipse P500A D-RGB|ATX Mid Tower|White/Black|$144.98|null
+NZXT|H210|Mini ITX Tower|Black|$69.99|null
+Fractal Design|Define R5|ATX Mid Tower|Black|$138.98|null
+Corsair|275R Airflow|ATX Mid Tower|White/Black|$89.99|null
+Fractal Design|Meshify C Mini|MicroATX Mini Tower|Black|$182.99|null
+Cooler Master|MasterBox NR200|Mini ITX Desktop|White/Black|$99.99|null
+NZXT|H510|ATX Mid Tower|Black/Red|$95.98|null
+Phanteks|Eclipse P360A|ATX Mid Tower|White|$84.98|null
+Cooler Master|MasterBox NR400 (w/ODD)|MicroATX Mid Tower|Black|$74.98|null
+Corsair|Carbide 175R RGB|ATX Mid Tower|Black|$74.98|null
+Corsair|Crystal 680X RGB|ATX Mid Tower|Black|$266.99|null
+Phanteks|Eclipse P400A Digital|ATX Mid Tower|Black|$89.99|null
+Fractal Design|Meshify C|ATX Mid Tower|Black|$111.98|null
+Fractal Design|Torrent|ATX Mid Tower|Black|$204.98|null
+Fractal Design|Meshify 2 Compact TG Light Tint|ATX Mid Tower|Black|$138.98|null
+DeepCool|MATREXX 55 MESH|ATX Mid Tower|Black|$58.95|null
+NZXT|H710|ATX Mid Tower|White|$173.99|null
+Fractal Design|Focus G|ATX Mid Tower|Black|$66.98|null
+DIYPC|J180|ATX Mid Tower|Black|$51.00|null

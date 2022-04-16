@@ -1,0 +1,35 @@
+Company|Name|Type|Radiator|Price|Amazon Link
+Cooler Master|Hyper 212 RGB Black Edition|Air|null|$47.99|null
+Cooler Master|Hyper 212 Black Edition|Air|null|$43.99|null
+Corsair|iCUE H150i ELITE CAPELLIX|AIO Liquid|360mm|$184.99|null
+Cooler Master|MASTERLIQUID ML240L RGB V2|AIO Liquid|240mm|$69.99|null
+Corsair|iCUE H100i ELITE CAPELLIX|AIO Liquid|240mm|$139.99|null
+NZXT|Kraken X53|AIO Liquid|240mm|$119.25|null
+Noctua|NH-D15 chromax.black|Air|null|$109.95|null
+NZXT|Kracken Z73|AIO Liquid|360mm|$259.99|null
+be quiet!|Dark Rock Pro 4|Air|null|$89.90|null
+Cooler Master|Hyper 212 EVO|Air|null|$30.98|null
+Noctua|NH-D15|Air|null|$99.95|null
+Corsair|iCUE H100i RGB PRO XT|AIO Liquid|240mm|$109.99|null
+NZXT|Kraken X63|AIO Liquid|280mm|$154.99|null
+Noctua|NH-U12s chromax.black|Air|null|$79.95|null
+NZXT|Kraken Z63|AIO Liquid|280mm|$249.45|null
+ARCTIC|Liquid Freezer II 240|AIO Liquid|240mm|null
+Corsair|H100i v2|AIO Liquid|240mm|$89.98|null
+Thermaltake|UX100|Air|null|$19.98|null
+Corsair|iCUE H150i ELITE LCD|AIO Liquid|360mm|$289.99|null
+NZXT|Kraken M22|AIO Liquid|120mm|$79.98|null
+NZXT|Kraken Z73 RGB|AIO Liquid|360mm|$294.00|null
+be quiet!|Pure Rock 2 Black|Air|null|$44.90|null
+NZXT|Kraken X73|AIO Liquid|360mm|$169.00|null
+Scythe|FUMA 2|Air|null|$59.99|null
+ARCTIC|Liquid Freezer II 360|AIO Liquid|360mm|$113.35|null
+Asus|ROG RYUJIN II 360|AIO Liquid|360mm|$329.99|null
+Vetroo|V5|Air|null|$31.99|null
+be quiet!|Dark Rock 4|Air|null|$74.90|null
+Cooler Master|MasterLiquid ML240L V2 RGB|AIO Liquid|240mm|$89.99|null
+MSI|MAG CORE LIQUID 240R|AIO Liquid|240mm|$94.99|null
+Deepcool|GAMMAXX 400 Blue|Air|null|$19.98|null
+Cooler Master|MASTERLIQUID ML120L RGB V2|AIO Liquid|120mm|$69.98|null
+ARCTIC|Liquid Freezer II 280|AIO Liquid|280mm|$109.99|null
+Noctua|NH-U12S|Air|null|$69.94|null
